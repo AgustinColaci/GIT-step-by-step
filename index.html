@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos GIT</title>
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">GIT</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <section class="comandos">
+        <h1>COMANDOS GIT</h1>
+        <p>Listado con comandos para utilizar GIT:</p>
+
+        <ol>
+            <li><span>Descargar</span> desde el sitio oficial haciendo click <a target="_blank" href="https://git-scm.com/downloads">aquí</a>.</li>
+            <li>Abrir <span>GIT BASH</span> o la <span>Terminal</span> de nuestro sistema.</li>
+            <ul class="config__unica">
+              <li><span>Configuraciones por única vez:</span>
+                <ol>
+                  <li><span>Email:</span> git config --global user.email "micorreo@gmail.com"</li>
+                  <li><span>Nombre:</span> git config --global user.name "Juán Pérez"</li>
+                </ol>
+              </li>
+            </ul>
+            <li><span>Localizar</span> la carpeta de nuestro proyecto.</li>
+            <li><span>git init</span> para empezar a trabajar con git en nuestro proyecto.</li>
+            <li><span>git add .</span> para agregar todos los archivos que contenga la carpeta o git add + el nombre del archivo que queremos agregar. Ejemplo: git add index.html</li>
+            <li><span>git commit -m “Mensaje”</span> Mensaje obligatorio para indicar modificaciones realizadas.</li>
+            <li><span>git log --oneline</span> Para conocer los códigos de los commits realizados.</li>
+            <li><span>git branch nombre_rama</span> para crear una nueva rama.</li>
+            <li><span>git branch -D nombre_rama</span> para eliminar dicha rama.</li>
+            <li><span>git checkout nombre_rama</span> para moverse a una rama.</li>
+            <li><span>git merge nombre_rama</span> debemos estar en MASTER para fusionar los cambios de distintas ramas.</li>
+            <li><span>git status</span> para ver en que estado estamos trabajando.</li>
+        </ol>
+
+    </section>
+    
+</body>
+</html>

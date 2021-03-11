@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Raleway', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #3174F0;
+  list-style-type: none; }
+
+section {
+  text-align: center; }
+  section h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 3rem; }
+  section p {
+    font-size: 2rem; }
+
+.comandos ol {
+  margin: 5rem 10rem;
+  list-style-type: decimal;
+  text-align: start;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 3rem 3rem 3rem 5rem;
+  border-radius: 5px; }
+  .comandos ol li {
+    font-size: 2rem; }
+  .comandos ol a {
+    color: #353535;
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: underline; }
+
+span {
+  font-weight: 600; }
+
+.config__unica ol {
+  margin: 0; }
+  .config__unica ol li span {
+    text-decoration: underline; }
